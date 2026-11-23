@@ -53,8 +53,10 @@ outputs/             tables, figure and examples used in the paper
 - The exact `torch` / `transformers` versions and the GPU used for each run are written to
   `results/<model>__<prompt>.meta.json`.
 
-The fastest way to reproduce everything is to open `colab_run.ipynb` in Colab with a T4
-runtime and run all cells; the first cell asks you to upload this repository as a zip file.
+The fastest way to reproduce the results is `colab_run.ipynb` in Colab: run the setup cell
+(clone from GitHub or upload this repository as a zip file), then section 2, which regenerates
+every table and the figure from the included predictions without a GPU in about a minute.
+Sections 3-4 re-run the pilot and the main experiment and need a T4 runtime.
 
 ## Reproducing the results
 
@@ -132,12 +134,14 @@ digits across GPU types, library versions or batch composition (float16); the ve
 recorded in the `.meta.json` files (Colab T4, Python 3.13.16, torch 2.14.1+cu130,
 transformers 5.22.1). Across two separate runs on the same setup, 3,839 of the 3,840 predictions
 for conditions shared by `results/` and `results_overlap/` were identical; the one change was a
-near-tie (p = 0.48 vs. 0.52 between two options).
+near-tie between two options (p ≈ 0.5: 0.51/0.49 in one run, 0.48/0.52 in the other).
 
 ## Design checks
 
 `generate.py` refuses to write the benchmark if any invariant fails: *v* appears exactly once
 in every note, the two distractor values never appear in a note, v is printed exactly as its option text in every condition except `IRR`, the target fact (the `ANS` probe) never occurs verbatim inside the note of any other condition (so no near-miss probe contains an exact copy of the answer sentence), the options and the probe
 position are identical across the eleven conditions of an item, and all conditions of an item
-contain the same number of facts. Probe position (1-4) and note style (list / prose) are
-balanced across items; the option order is random per item.
+contain the same number of facts. Probe position (1-4) and note style (list / prose) are each
+balanced across items (30 items per position, 60 per style), but they are not crossed: both follow
+the item index, so positions 1 and 3 always occur in list-style notes and positions 2 and 4 in prose.
+The option order is random per item (the option letter of v is randomized, not balanced).
