@@ -1,0 +1,21 @@
+% Randomly sampled examples (uniform, seed fixed); edit layout as needed.
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{p{0.11\linewidth}cp{0.42\linewidth}cccc}
+\toprule
+Condition & Asked & Probe fact in the note & Gold & Pred. & $p(v)$ & $p(\textsc{unk})$ \\
+\midrule
+Entity: subsidiary & FY2021 & Ossoria Retail (a wholly owned subsidiary of Galuna Systems): net income, fiscal year 2021: \$732 million & D & D & 0.00 & 1.00 \\
+Scope: one segment & FY2025 & Galtine Systems' Industrial Solutions segment: net income, fiscal year 2025: \$297 million & A & B$^{\times}$ & 1.00 & 0.00 \\
+Period: five years earlier & FY2022 & Istora Systems: net income, fiscal year 2017: \$422 million & D & D & 0.00 & 1.00 \\
+IRR & FY2020 & Kelack Holdings: shares outstanding, fiscal year 2020: 287 million & B & B & 0.00 & 1.00 \\
+Scope: one segment & FY2020 & Torven Group's Digital Services segment: net income, fiscal year 2020: \$940 million & B & A$^{\times}$ & 1.00 & 0.00 \\
+Scope: fourth quarter & FY2021 & Torack Industries: fourth-quarter net income, fiscal year 2021: \$856 million & C & D$^{\times}$ & 1.00 & 0.00 \\
+Scope: fourth quarter & FY2023 & Verana Partners reported fourth-quarter net income of \$464 million in fiscal year 2023. & B & C$^{\times}$ & 1.00 & 0.00 \\
+Period: previous year & FY2023 & Kelery Systems reported net income of \$237 million in fiscal year 2022. & C & C & 0.00 & 1.00 \\
+\bottomrule
+\end{tabular}
+\caption{Randomly sampled predictions of Qwen2.5-3B (prompt \textsc{instructed}): 4 drawn at random from its 197 errors and 4 from its correct predictions; $^{\times}$ marks errors.}
+\label{tab:examples}
+\end{table*}

@@ -1,0 +1,109 @@
+baseline,axis,contrast,delta,lo,hi,decision,model,prompt
+IRR,period,near,0.7500,0.5500,0.9500,supported,Qwen/Qwen2.5-1.5B-Instruct,neutral
+IRR,period,far,0.4000,0.2000,0.6000,supported,Qwen/Qwen2.5-1.5B-Instruct,neutral
+IRR,period,near-far,0.3500,0.1500,0.6000,supported,Qwen/Qwen2.5-1.5B-Instruct,neutral
+IRR,metric,near,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-1.5B-Instruct,neutral
+IRR,metric,far,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-1.5B-Instruct,neutral
+IRR,metric,near-far,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-1.5B-Instruct,neutral
+IRR,entity,near,0.9000,0.7500,1.0000,supported,Qwen/Qwen2.5-1.5B-Instruct,neutral
+IRR,entity,far,0.5500,0.3000,0.7500,supported,Qwen/Qwen2.5-1.5B-Instruct,neutral
+IRR,entity,near-far,0.3500,0.1500,0.6000,supported,Qwen/Qwen2.5-1.5B-Instruct,neutral
+IRR,scope,near,1.0000,1.0000,1.0000,supported,Qwen/Qwen2.5-1.5B-Instruct,neutral
+IRR,scope,far,1.0000,1.0000,1.0000,supported,Qwen/Qwen2.5-1.5B-Instruct,neutral
+IRR,scope,near-far,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-1.5B-Instruct,neutral
+IRR,pooled,near,0.6625,0.6000,0.7125,supported,Qwen/Qwen2.5-1.5B-Instruct,neutral
+IRR_usd,period,near,0.7500,0.5500,0.9500,supported,Qwen/Qwen2.5-1.5B-Instruct,neutral
+IRR_usd,period,far,0.4000,0.2000,0.6000,supported,Qwen/Qwen2.5-1.5B-Instruct,neutral
+IRR_usd,period,near-far,0.3500,0.1500,0.6000,supported,Qwen/Qwen2.5-1.5B-Instruct,neutral
+IRR_usd,metric,near,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-1.5B-Instruct,neutral
+IRR_usd,metric,far,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-1.5B-Instruct,neutral
+IRR_usd,metric,near-far,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-1.5B-Instruct,neutral
+IRR_usd,entity,near,0.9000,0.7500,1.0000,supported,Qwen/Qwen2.5-1.5B-Instruct,neutral
+IRR_usd,entity,far,0.5500,0.3000,0.7500,supported,Qwen/Qwen2.5-1.5B-Instruct,neutral
+IRR_usd,entity,near-far,0.3500,0.1500,0.6000,supported,Qwen/Qwen2.5-1.5B-Instruct,neutral
+IRR_usd,scope,near,1.0000,1.0000,1.0000,supported,Qwen/Qwen2.5-1.5B-Instruct,neutral
+IRR_usd,scope,far,1.0000,1.0000,1.0000,supported,Qwen/Qwen2.5-1.5B-Instruct,neutral
+IRR_usd,scope,near-far,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-1.5B-Instruct,neutral
+IRR_usd,pooled,near,0.6625,0.6000,0.7125,supported,Qwen/Qwen2.5-1.5B-Instruct,neutral
+IRR,format,IRR_usd-IRR,0.0000,0.0000,0.0000,CI includes zero,Qwen/Qwen2.5-1.5B-Instruct,neutral
+IRR,period,near,0.2500,0.1000,0.4500,supported,Qwen/Qwen2.5-1.5B-Instruct,instructed
+IRR,period,far,0.1500,0.0000,0.3000,not supported,Qwen/Qwen2.5-1.5B-Instruct,instructed
+IRR,period,near-far,0.1000,0.0000,0.2500,not supported,Qwen/Qwen2.5-1.5B-Instruct,instructed
+IRR,metric,near,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-1.5B-Instruct,instructed
+IRR,metric,far,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-1.5B-Instruct,instructed
+IRR,metric,near-far,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-1.5B-Instruct,instructed
+IRR,entity,near,0.5000,0.3000,0.7012,supported,Qwen/Qwen2.5-1.5B-Instruct,instructed
+IRR,entity,far,0.2500,0.0500,0.4500,supported,Qwen/Qwen2.5-1.5B-Instruct,instructed
+IRR,entity,near-far,0.2500,0.1000,0.4500,supported,Qwen/Qwen2.5-1.5B-Instruct,instructed
+IRR,scope,near,0.9500,0.8500,1.0000,supported,Qwen/Qwen2.5-1.5B-Instruct,instructed
+IRR,scope,far,1.0000,1.0000,1.0000,supported,Qwen/Qwen2.5-1.5B-Instruct,instructed
+IRR,scope,near-far,-0.0500,-0.1500,0.0000,not supported,Qwen/Qwen2.5-1.5B-Instruct,instructed
+IRR,pooled,near,0.4250,0.3250,0.5250,supported,Qwen/Qwen2.5-1.5B-Instruct,instructed
+IRR_usd,period,near,0.2500,0.1000,0.4500,supported,Qwen/Qwen2.5-1.5B-Instruct,instructed
+IRR_usd,period,far,0.1500,0.0000,0.3000,not supported,Qwen/Qwen2.5-1.5B-Instruct,instructed
+IRR_usd,period,near-far,0.1000,0.0000,0.2500,not supported,Qwen/Qwen2.5-1.5B-Instruct,instructed
+IRR_usd,metric,near,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-1.5B-Instruct,instructed
+IRR_usd,metric,far,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-1.5B-Instruct,instructed
+IRR_usd,metric,near-far,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-1.5B-Instruct,instructed
+IRR_usd,entity,near,0.5000,0.3000,0.7012,supported,Qwen/Qwen2.5-1.5B-Instruct,instructed
+IRR_usd,entity,far,0.2500,0.0500,0.4500,supported,Qwen/Qwen2.5-1.5B-Instruct,instructed
+IRR_usd,entity,near-far,0.2500,0.1000,0.4500,supported,Qwen/Qwen2.5-1.5B-Instruct,instructed
+IRR_usd,scope,near,0.9500,0.8500,1.0000,supported,Qwen/Qwen2.5-1.5B-Instruct,instructed
+IRR_usd,scope,far,1.0000,1.0000,1.0000,supported,Qwen/Qwen2.5-1.5B-Instruct,instructed
+IRR_usd,scope,near-far,-0.0500,-0.1500,0.0000,not supported,Qwen/Qwen2.5-1.5B-Instruct,instructed
+IRR_usd,pooled,near,0.4250,0.3250,0.5250,supported,Qwen/Qwen2.5-1.5B-Instruct,instructed
+IRR,format,IRR_usd-IRR,0.0000,0.0000,0.0000,CI includes zero,Qwen/Qwen2.5-1.5B-Instruct,instructed
+IRR,period,near,0.0500,0.0000,0.1500,not supported,Qwen/Qwen2.5-3B-Instruct,neutral
+IRR,period,far,0.1000,0.0000,0.2500,not supported,Qwen/Qwen2.5-3B-Instruct,neutral
+IRR,period,near-far,-0.0500,-0.1500,0.0000,not supported,Qwen/Qwen2.5-3B-Instruct,neutral
+IRR,metric,near,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-3B-Instruct,neutral
+IRR,metric,far,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-3B-Instruct,neutral
+IRR,metric,near-far,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-3B-Instruct,neutral
+IRR,entity,near,0.0500,0.0000,0.1500,not supported,Qwen/Qwen2.5-3B-Instruct,neutral
+IRR,entity,far,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-3B-Instruct,neutral
+IRR,entity,near-far,0.0500,0.0000,0.1500,not supported,Qwen/Qwen2.5-3B-Instruct,neutral
+IRR,scope,near,1.0000,1.0000,1.0000,supported,Qwen/Qwen2.5-3B-Instruct,neutral
+IRR,scope,far,0.9000,0.7500,1.0000,supported,Qwen/Qwen2.5-3B-Instruct,neutral
+IRR,scope,near-far,0.1000,0.0000,0.2500,not supported,Qwen/Qwen2.5-3B-Instruct,neutral
+IRR,pooled,near,0.2750,0.2500,0.3125,supported,Qwen/Qwen2.5-3B-Instruct,neutral
+IRR_usd,period,near,0.0500,0.0000,0.1500,not supported,Qwen/Qwen2.5-3B-Instruct,neutral
+IRR_usd,period,far,0.1000,0.0000,0.2500,not supported,Qwen/Qwen2.5-3B-Instruct,neutral
+IRR_usd,period,near-far,-0.0500,-0.1500,0.0000,not supported,Qwen/Qwen2.5-3B-Instruct,neutral
+IRR_usd,metric,near,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-3B-Instruct,neutral
+IRR_usd,metric,far,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-3B-Instruct,neutral
+IRR_usd,metric,near-far,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-3B-Instruct,neutral
+IRR_usd,entity,near,0.0500,0.0000,0.1500,not supported,Qwen/Qwen2.5-3B-Instruct,neutral
+IRR_usd,entity,far,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-3B-Instruct,neutral
+IRR_usd,entity,near-far,0.0500,0.0000,0.1500,not supported,Qwen/Qwen2.5-3B-Instruct,neutral
+IRR_usd,scope,near,1.0000,1.0000,1.0000,supported,Qwen/Qwen2.5-3B-Instruct,neutral
+IRR_usd,scope,far,0.9000,0.7500,1.0000,supported,Qwen/Qwen2.5-3B-Instruct,neutral
+IRR_usd,scope,near-far,0.1000,0.0000,0.2500,not supported,Qwen/Qwen2.5-3B-Instruct,neutral
+IRR_usd,pooled,near,0.2750,0.2500,0.3125,supported,Qwen/Qwen2.5-3B-Instruct,neutral
+IRR,format,IRR_usd-IRR,0.0000,0.0000,0.0000,CI includes zero,Qwen/Qwen2.5-3B-Instruct,neutral
+IRR,period,near,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-3B-Instruct,instructed
+IRR,period,far,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-3B-Instruct,instructed
+IRR,period,near-far,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-3B-Instruct,instructed
+IRR,metric,near,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-3B-Instruct,instructed
+IRR,metric,far,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-3B-Instruct,instructed
+IRR,metric,near-far,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-3B-Instruct,instructed
+IRR,entity,near,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-3B-Instruct,instructed
+IRR,entity,far,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-3B-Instruct,instructed
+IRR,entity,near-far,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-3B-Instruct,instructed
+IRR,scope,near,1.0000,1.0000,1.0000,supported,Qwen/Qwen2.5-3B-Instruct,instructed
+IRR,scope,far,0.7500,0.5500,0.9500,supported,Qwen/Qwen2.5-3B-Instruct,instructed
+IRR,scope,near-far,0.2500,0.0500,0.4500,supported,Qwen/Qwen2.5-3B-Instruct,instructed
+IRR,pooled,near,0.2500,0.2500,0.2500,supported,Qwen/Qwen2.5-3B-Instruct,instructed
+IRR_usd,period,near,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-3B-Instruct,instructed
+IRR_usd,period,far,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-3B-Instruct,instructed
+IRR_usd,period,near-far,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-3B-Instruct,instructed
+IRR_usd,metric,near,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-3B-Instruct,instructed
+IRR_usd,metric,far,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-3B-Instruct,instructed
+IRR_usd,metric,near-far,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-3B-Instruct,instructed
+IRR_usd,entity,near,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-3B-Instruct,instructed
+IRR_usd,entity,far,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-3B-Instruct,instructed
+IRR_usd,entity,near-far,0.0000,0.0000,0.0000,not supported,Qwen/Qwen2.5-3B-Instruct,instructed
+IRR_usd,scope,near,1.0000,1.0000,1.0000,supported,Qwen/Qwen2.5-3B-Instruct,instructed
+IRR_usd,scope,far,0.7500,0.5500,0.9500,supported,Qwen/Qwen2.5-3B-Instruct,instructed
+IRR_usd,scope,near-far,0.2500,0.0500,0.4500,supported,Qwen/Qwen2.5-3B-Instruct,instructed
+IRR_usd,pooled,near,0.2500,0.2500,0.2500,supported,Qwen/Qwen2.5-3B-Instruct,instructed
+IRR,format,IRR_usd-IRR,0.0000,0.0000,0.0000,CI includes zero,Qwen/Qwen2.5-3B-Instruct,instructed

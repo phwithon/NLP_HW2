@@ -1,0 +1,27 @@
+\begin{table}[t]
+\centering
+\small
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lrrrr}
+\toprule
+Condition & \multicolumn{2}{c}{Qwen2.5-1.5B} & \multicolumn{2}{c}{Qwen2.5-3B} \\
+\midrule
+ & Sub. & Abst. & Sub. & Abst. \\
+\midrule
+ANS (answer present) & \textit{acc.} 98.3 & 1.7 & \textit{acc.} 100.0 & 0.0 \\
+IRR (unrelated figure) & 0.0 & 100.0 & 0.0 & 100.0 \\
+IRR-USD (unrelated dollar figure) & 0.0 & 100.0 & 0.0 & 100.0 \\
+\midrule
+Period: previous year & 33.3 & 66.7 & 0.8 & 99.2 \\
+Period: five years earlier & 14.2 & 85.8 & 1.7 & 98.3 \\
+Metric: operating income & 0.8 & 99.2 & 0.0 & 100.0 \\
+Metric: revenue & 0.0 & 100.0 & 0.0 & 100.0 \\
+Entity: subsidiary & 53.3 & 46.7 & 4.2 & 95.8 \\
+Entity: unrelated company & 23.3 & 76.7 & 0.0 & 100.0 \\
+Scope: fourth quarter & 88.3 & 11.7 & 94.2 & 5.8 \\
+Scope: one segment & 95.8 & 4.2 & 63.3 & 36.7 \\
+\bottomrule
+\end{tabular}}
+\caption{Substitution rate (Sub., \% of items whose prediction is the probe value $v$) and abstention rate (Abst., \%) per condition, prompt \textsc{instructed}. For \textsc{Ans}, the first column is accuracy and the second is the false-abstention rate. Chance is 25.0 for every cell.}
+\label{tab:main}
+\end{table}

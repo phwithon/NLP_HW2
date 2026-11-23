@@ -1,0 +1,25 @@
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{lllrrr}
+\toprule
+Model & Prompt & Condition & Overlap & Clean & Clean $-$ Overlap \\
+\midrule
+Qwen2.5-1.5B & \textsc{neutral} & Entity: subsidiary & 86.7 & 85.0 & -1.7 [-4.2, 0.0] \\
+ &  & Entity: unrelated company & 57.5 & 60.0 & +2.5 [-0.8, 6.7] \\
+ &  & Scope: one segment & 100.0 & 100.0 & 0.0 [0.0, 0.0] \\
+ & \textsc{instructed} & Entity: subsidiary & 59.2 & 53.3 & -5.8 [-10.8, -1.7] \\
+ &  & Entity: unrelated company & 19.2 & 23.3 & +4.2 [0.8, 7.5] \\
+ &  & Scope: one segment & 95.8 & 95.8 & 0.0 [0.0, 0.0] \\
+\midrule
+Qwen2.5-3B & \textsc{neutral} & Entity: subsidiary & 10.0 & 10.0 & 0.0 [0.0, 0.0] \\
+ &  & Entity: unrelated company & 0.0 & 0.0 & 0.0 [0.0, 0.0] \\
+ &  & Scope: one segment & 85.0 & 85.8 & +0.8 [-4.2, 5.8] \\
+ & \textsc{instructed} & Entity: subsidiary & 3.3 & 4.2 & +0.8 [0.0, 2.5] \\
+ &  & Entity: unrelated company & 0.0 & 0.0 & 0.0 [0.0, 0.0] \\
+ &  & Scope: one segment & 67.5 & 63.3 & -4.2 [-9.2, 0.8] \\
+\bottomrule
+\end{tabular}
+\caption{Substitution rate (\%) under the earlier wording of three probe subjects (\emph{Overlap}) and under the final wording (\emph{Clean}); paired difference in percentage points with 95\% CI. In the earlier wording the target fact occurred verbatim inside the probe for \emph{Scope: one segment} (all notes) and \emph{Entity: subsidiary} (list-style notes only); for \emph{Entity: unrelated company} only the punctuation of the subject changed. All other conditions are identical in both versions.}
+\label{tab:overlap}
+\end{table*}

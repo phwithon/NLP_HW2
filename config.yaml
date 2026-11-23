@@ -1,0 +1,22 @@
+# All settings that affect the reported numbers live here.
+seed: 2026            # main benchmark (generation, option order, bootstrap, example sampling)
+pilot_seed: 7         # pilot items are generated with a different seed, so the main set is never tuned on
+n_items: 120          # base items in the main benchmark (x 11 conditions = 1,320 prompts)
+n_pilot_items: 20
+
+models:
+  - Qwen/Qwen2.5-1.5B-Instruct
+  - Qwen/Qwen2.5-3B-Instruct
+
+prompts:              # ablation: with / without an explicit abstention instruction
+  - neutral
+  - instructed
+
+batch_size: 16
+dtype: float16        # half precision so that both models fit on a 16 GB T4
+
+bootstrap_resamples: 2000
+n_examples: 8         # randomly sampled examples reported in the paper
+
+main_prompt: instructed   # prompt used for the main results; the other prompt is the ablation
+ans_acc_min: 0.80         # results are interpretable only if accuracy under ANS reaches this level

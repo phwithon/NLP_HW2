@@ -1,0 +1,27 @@
+\begin{table}[t]
+\centering
+\small
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{llrr}
+\toprule
+Axis & Contrast & Qwen2.5-1.5B & Qwen2.5-3B \\
+\midrule
+Period & $\Delta_{\text{near}}$ & +33.3 [25.0, 41.7]$^{*}$ & +0.8 [0.0, 2.5] \\
+ & $\Delta_{\text{far}}$ & +14.2 [8.3, 20.8]$^{*}$ & +1.7 [0.0, 4.2] \\
+ & $\Delta_{\text{near}}-\Delta_{\text{far}}$ & +19.2 [11.7, 26.7]$^{*}$ & -0.8 [-3.3, 1.7] \\
+Metric & $\Delta_{\text{near}}$ & +0.8 [0.0, 2.5] & 0.0 [0.0, 0.0] \\
+ & $\Delta_{\text{far}}$ & 0.0 [0.0, 0.0] & 0.0 [0.0, 0.0] \\
+ & $\Delta_{\text{near}}-\Delta_{\text{far}}$ & +0.8 [0.0, 2.5] & 0.0 [0.0, 0.0] \\
+Entity & $\Delta_{\text{near}}$ & +53.3 [44.2, 62.5]$^{*}$ & +4.2 [0.8, 8.3]$^{*}$ \\
+ & $\Delta_{\text{far}}$ & +23.3 [16.7, 30.8]$^{*}$ & 0.0 [0.0, 0.0] \\
+ & $\Delta_{\text{near}}-\Delta_{\text{far}}$ & +30.0 [21.7, 38.3]$^{*}$ & +4.2 [0.8, 8.3]$^{*}$ \\
+Scope & $\Delta_{\text{near}}$ & +88.3 [82.5, 93.3]$^{*}$ & +94.2 [89.2, 98.3]$^{*}$ \\
+ & $\Delta_{\text{far}}$ & +95.8 [92.5, 99.2]$^{*}$ & +63.3 [54.2, 71.7]$^{*}$ \\
+ & $\Delta_{\text{near}}-\Delta_{\text{far}}$ & -7.5 [-12.5, -3.3]$^{*}$ & +30.8 [21.7, 39.2]$^{*}$ \\
+\midrule
+Pooled & $\Delta_{\text{near}}$ & +44.0 [39.4, 48.8]$^{*}$ & +24.8 [23.1, 26.5]$^{*}$ \\
+\bottomrule
+\end{tabular}}
+\caption{Paired differences in substitution rate relative to \textsc{Irr} (percentage points, 95\% bootstrap CI over base items), prompt \textsc{instructed}. $^{*}$: CI excludes zero. \emph{Pooled} averages the four near-miss conditions.}
+\label{tab:delta}
+\end{table}

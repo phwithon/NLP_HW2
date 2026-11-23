@@ -1,0 +1,21 @@
+% Randomly sampled examples (uniform, seed fixed); edit layout as needed.
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{p{0.11\linewidth}cp{0.42\linewidth}cccc}
+\toprule
+Condition & Asked & Probe fact in the note & Gold & Pred. & $p(v)$ & $p(\textsc{unk})$ \\
+\midrule
+Metric: revenue & FY2021 & Tordris Systems reported revenue of \$416 million in fiscal year 2021. & C & C & 0.00 & 1.00 \\
+Scope: one segment & FY2024 & Ossmont Group's Consumer Products segment reported net income of \$405 million in fiscal year 2024. & A & B$^{\times}$ & 1.00 & 0.00 \\
+Scope: fourth quarter & FY2024 & Toreth Industries: fourth-quarter net income, fiscal year 2024: \$699 million & D & B$^{\times}$ & 1.00 & 0.00 \\
+IRR & FY2024 & Istdris Group had 173 million shares outstanding in fiscal year 2024. & D & D & 0.00 & 1.00 \\
+Scope: fourth quarter & FY2020 & Halack Holdings: fourth-quarter net income, fiscal year 2020: \$267 million & B & A$^{\times}$ & 1.00 & 0.00 \\
+Metric: operating income & FY2025 & Pelholt Systems reported operating income of \$482 million in fiscal year 2025. & B & B & 0.00 & 1.00 \\
+Scope: one segment & FY2022 & Braeth Group's Consumer Products segment: net income, fiscal year 2022: \$818 million & D & D & 0.18 & 0.82 \\
+Scope: one segment & FY2023 & Morven Industries' Digital Services segment reported net income of \$840 million in fiscal year 2023. & B & C$^{\times}$ & 1.00 & 0.00 \\
+\bottomrule
+\end{tabular}
+\caption{Randomly sampled predictions of Qwen2.5-3B (prompt \textsc{instructed}): 4 drawn at random from its 35 errors and 4 from its correct predictions; $^{\times}$ marks errors.}
+\label{tab:examples}
+\end{table*}

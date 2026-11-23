@@ -1,0 +1,8 @@
+# torch is preinstalled on Google Colab; install a CUDA build yourself elsewhere.
+transformers>=4.44
+accelerate>=0.33
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.8
+pyyaml>=6.0
+tqdm>=4.66

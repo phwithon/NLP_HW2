@@ -1,0 +1,11 @@
+{
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "prompt": "neutral",
+  "n_rows": 220,
+  "seconds": 18.0,
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1",
+  "python": "3.13.16",
+  "gpu": "Tesla T4",
+  "dtype": "float16"
+}

@@ -1,0 +1,18 @@
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Strategy & ANS acc. & Sub.\ (IRR) & Sub.\ (near-miss) & Abst.\ (no answer) \\
+\midrule
+Uniform random choice & 25.0 & 25.0 & 25.0 & 25.0 \\
+Always pick the context figure & 100.0 & 100.0 & 100.0 & 0.0 \\
+Always abstain & 0.0 & 0.0 & 0.0 & 100.0 \\
+\midrule
+Qwen2.5-1.5B & 98.3 & 0.0 & 44.0 & 69.1 \\
+Qwen2.5-3B & 100.0 & 0.0 & 24.8 & 83.6 \\
+\bottomrule
+\end{tabular}
+\caption{Reference strategies and models (prompt \textsc{instructed}, \%). Sub.\ (near-miss) averages the four near conditions; Abst.\ averages all ten conditions without an answer.}
+\label{tab:baselines}
+\end{table*}
